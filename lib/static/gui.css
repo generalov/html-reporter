@@ -67,3 +67,19 @@
 .section_collapsed .section__title:before {
     transform: none;
 }
+
+body {
+    margin: 0;
+}
+.control-buttons {
+    background: #f6f5f3;
+    border-bottom: 1px solid #ccc;
+    position: sticky;
+    padding: 5px;
+    top: 0;
+    z-index: 1;
+}
+
+.sections {
+    margin: 20px 0 0 10px;
+}
